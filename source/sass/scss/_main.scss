@@ -1,0 +1,97 @@
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cars {
+    padding-top: 2%;
+
+    position: relative;
+}
+
+.carName {
+    font-size: 16px;
+}
+
+.carInfo {
+    font-size: 14px;
+}
+
+.content {
+    border: 2px solid #000;
+    padding: 10px;
+    display: flex;
+    max-width: 1400px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.item {
+    border: 1px solid #2F4F4F;
+    margin-bottom: 15px;
+    width: 430px;
+    padding: 10px; 
+    margin-right: 5px;
+}
+
+.showBtn {
+    margin-bottom: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.showBtn:last-child {
+    margin-right: 0;
+}
+
+.btnOwners {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btnAddItem {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.itemCar {
+    margin: 0 auto;
+}
+
+.confirmBlock {
+    width: 350px;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.confirmBlock__btn {
+    margin-right: 20px;
+}
+
+.titleBuyForm {
+    border: 1px solid green;
+}
+
+.name {
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.contentTitle {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
